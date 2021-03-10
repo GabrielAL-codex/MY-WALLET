@@ -6,3 +6,11 @@ export  const Grid = styled.div`
     background-color: ${props => props.theme.color.secondary};
 
 `;
+
+export const Profile = styled.div`
+    display: flex
+`;
+
+export const Welcome = styled.h3``;
+
+export const Username = styled.span``;
