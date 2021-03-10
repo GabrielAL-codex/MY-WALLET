@@ -1,12 +1,12 @@
 import React from 'react';
 
-import  { Grid }  from './Style';
+import  { Container }  from './Style';
 
 const Content: React.FC = () => {
     return (
-        <Grid>
+        <Container>
             <h1>Content</h1>
-        </Grid>
+        </Container>
        
     );
 }

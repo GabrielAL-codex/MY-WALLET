@@ -1,12 +1,22 @@
 import React from 'react';
 
-import  { Grid }  from './Style';
+import  { 
+    Container, 
+    Profile, 
+    Welcome, 
+    Username }  from './Style';
+
 
 const MainHeader: React.FC = () => {
     return (
-        <Grid>
-            <h1>MainHeader</h1>
-        </Grid>
+        <Container>
+            <h1>Toogle</h1>
+
+            <Profile>
+                <Welcome>Olá,</Welcome>
+                <Username>Gabriel Almeida</Username>
+            </Profile>
+        </Container>
        
     );
 }
