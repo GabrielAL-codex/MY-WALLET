@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  Container  from './Style';
+import  { Container }  from './Style';
 
 const Aside: React.FC = () => {
     return (
