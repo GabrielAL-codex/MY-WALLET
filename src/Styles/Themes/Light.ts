@@ -1,7 +1,7 @@
 export default {
     title: 'Light',
 
-    colors: {
+    color: {
         primary: '#DCDCDC',
         secondary: '#FFFFFF',
         tertiary: '#F5F5F5',
