@@ -12,4 +12,8 @@ export default createGlobalStyle`
         outline: 0;
         font-family: 'Roboto'
     }
+
+    button {
+        cursor: pointer;
+    }
 `;
