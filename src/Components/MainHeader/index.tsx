@@ -1,12 +1,12 @@
 import React from 'react';
 
-import  { Container }  from './Style';
+import  { Grid }  from './Style';
 
 const MainHeader: React.FC = () => {
     return (
-        <Container>
+        <Grid>
             <h1>MainHeader</h1>
-        </Container>
+        </Grid>
        
     );
 }
