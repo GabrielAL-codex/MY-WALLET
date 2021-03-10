@@ -1,3 +1,13 @@
 import styled from 'styled-components';
 
-export  const Container = styled.div``;
+    /**
+    * MH = MainHeader
+    * AS = Aside
+    * CT = Content 
+     */
+     
+
+export  const Grid = styled.div`
+    display: grid;
+
+`;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import  { Container }  from './Style';
+import  { Grid }  from './Style';
 
 import MainHeader from '../MainHeader';
 import Aside from '../Aside';
@@ -8,11 +8,11 @@ import Content from '../Content';
 
 const Layout: React.FC = () => {
     return (
-        <Container>
+        <Grid>
             <MainHeader />
             <Aside />
             <Content />
-        </Container>
+        </Grid>
        
     );
 }
