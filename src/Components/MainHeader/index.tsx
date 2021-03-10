@@ -13,7 +13,7 @@ const MainHeader: React.FC = () => {
             <h1>Toogle</h1>
 
             <Profile>
-                <Welcome>Olá,</Welcome>
+                <Welcome>Olá, </Welcome>
                 <Username>Gabriel Almeida</Username>
             </Profile>
         </Container>
