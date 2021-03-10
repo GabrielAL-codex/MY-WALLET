@@ -2,13 +2,13 @@ import React from 'react';
 
 import  { Container }  from './Style';
 
-const MainHeader: React.FC = () => {
+const Layout: React.FC = () => {
     return (
         <Container>
-            <h1>MainHeader</h1>
+            <h1>Layout</h1>
         </Container>
        
     );
 }
 
-export default MainHeader;
+export default Layout;
