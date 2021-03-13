@@ -1,23 +1,26 @@
 import React from 'react';
-import Switch from 'react-switch';  
+
 
 
 import {
     Container,
-    ToggleLabel
+    ToggleLabel,
+    ToggleSelector
 
 } from './style';
-
+    
 
 const Toggle: React.FC = () => (
     <Container>
         <ToggleLabel>Light</ToggleLabel>
-        <Switch 
+        <ToggleSelector
             checked
+            uncheckedIcon={false}
+            checkedIcon={false}
             onChange={( ) => console.log('mudou')}
         />
         <ToggleLabel>Dark</ToggleLabel>
     </Container>
 )
 
-export default Toggle
+export default Toggle;
