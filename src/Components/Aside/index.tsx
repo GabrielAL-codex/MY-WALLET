@@ -23,6 +23,18 @@ const Aside: React.FC = () => {
                 <MenuItemLink href="#">
                     Dashboard
                 </MenuItemLink>
+
+                <MenuItemLink href="#">
+                    Entradas
+                </MenuItemLink>
+
+                <MenuItemLink href="#">
+                    Saídas
+                </MenuItemLink>
+
+                <MenuItemLink href="#">
+                    Sair
+                </MenuItemLink>
             </MenuContainer>
         </Container>
        
