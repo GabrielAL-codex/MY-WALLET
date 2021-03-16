@@ -7,7 +7,7 @@ import {
     ToggleLabel,
     ToggleSelector
 
-} from './style';
+} from './Styles';
     
 
 const Toggle: React.FC = () => (
