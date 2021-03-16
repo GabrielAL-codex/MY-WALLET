@@ -6,6 +6,7 @@ import  {
     Container, 
     Header,
     LogImg,
+    Title,
     MenuContainer,
     MenuItemLink
 }  from './Style';
@@ -15,6 +16,7 @@ const Aside: React.FC = () => {
         <Container>
             <Header>
                 <LogImg src={logoImg} alt="Logo My Wallet" />
+                <Title> My Wallet </Title>
             </Header>
 
             <MenuContainer>
