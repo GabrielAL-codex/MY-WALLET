@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export  const Container = styled.div`
     grid-area: AS;
     
@@ -35,15 +36,22 @@ export const MenuContainer = styled.nav`
 `;
 
 export const MenuItemLink = styled.a`
-    color: ${props => props.theme.color.white};
+    color: ${props => props.theme.color.info};
     text-decoration: none;
 
     margin: 7px 0;
+    display: flex;
+    align-items: center;
 
     transition: opacity .3s;
 
     &:hover {
         opacity: .7;
 
+    }
+
+    > svg {
+        font-size: 18px;
+        margin-right: 5px;
     }
 `;
