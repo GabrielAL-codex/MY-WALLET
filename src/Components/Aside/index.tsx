@@ -16,7 +16,7 @@ import  {
     Title,
     MenuContainer,
     MenuItemLink
-}  from './Style';
+}  from './Styles';
 
 const Aside: React.FC = () => {
     return (
